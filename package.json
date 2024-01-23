@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "jsondb": "json-server --watch --port 4000 ./DB/db.json"  
   },
   "dependencies": {
     "autoprefixer": "10.4.16",
